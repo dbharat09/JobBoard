@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Mysem",
+    "slug": "Mysem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Mysem.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/MySem-adaptive.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bharat13232312.Mysem"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "38af201b-811b-4cea-8e68-0384fc932669"
+      }
+    }
+  }
+}
